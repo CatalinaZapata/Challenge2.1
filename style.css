@@ -53,6 +53,7 @@ font-size: 15px;}
 
 .main-s2, .main-s3{
     width: 100%;}
+.main-s3{margin-bottom: 5em;}
 .main-s2-skills, .main-s3-hobbies, .main-s4-formación{
     margin-top: 3em;
     font-size: 20px;
@@ -87,6 +88,7 @@ font-size: 15px;}
 .div{
 display: flex;
 justify-content: space-between;
+justify-content: space-around;
 flex-wrap: wrap;}
 .main-s4-formación-img{
     height: 4em;}
@@ -101,6 +103,16 @@ flex-wrap: wrap;}
     padding-bottom: 1em;}
 
 
+.main-s6{display: flex;}
+.main-s6-img-contacto{width: 20em;}
+.main-s6-contacto{
+font-size: 20px;
+font-weight: bolder;}
+.main-s6-texto, .main-s6-textarea{font-size: 12px;}
+.main-s6-form{
+display: flex;
+flex-direction: column;}
+.main-s6-form-texto{font-size: 10px;}
 
 /*footer responsive*/
 .container-interior{
@@ -125,12 +137,15 @@ flex-wrap: wrap;}
         height: 14em;}}
 @media screen and (max-width: 700px){
     .main-s2-skills-iconos, .main-s3-hobbies-cuadro{
-        flex-wrap: wrap;}
-    .main-s2-skills-ul, .main-s3-hobbies-li{margin: 0em 6em 2em 0em;}}
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0em 1em;}
+    .main-s2-skills-ul, .main-s3-hobbies-li{margin: 0em 5em 2em 5em;}}
 @media screen and (max-width: 600px){
     .header, .main-s1{
         margin: 0em 0em;
         padding: 1em 1em;}
+    .main-s1{padding: 5em 1em;}
     .S1,.datos{
         flex-direction: column;
         text-align: center;}
