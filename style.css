@@ -112,7 +112,7 @@ flex-wrap: wrap;}
     width: 15em;
     margin-right: 3em;}
 .main-s6-div{
-    width: 80%;
+    
 }
 .main-s6-form{
     display: flex;
@@ -124,8 +124,7 @@ margin-bottom: 0.5em;}
 .main-s6-texto, .main-s6-textarea{
     margin-bottom: 1em;
     font-size: 12px;
-    border: none;
-    width: 80%;}
+    border: none;}
 .main-s6-form-texto{
     background: white;
     font-size: 10px;
