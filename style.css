@@ -269,6 +269,6 @@ margin-bottom: 0.5em;}
         margin: 0 3em;}}
 @media screen and (max-width: 300px){
     .texto{width: 300px;}
-    .img{width: 15em;}
+    .img{width: 100%;}
     .main-s5-encriptador, .main-s5-forms, .main-s5-excel{
         margin: 0 1em;}}
